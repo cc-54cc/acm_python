@@ -1,0 +1,3 @@
+for i in range(1, n + 1):
+    for l in range(W, w[i] - 1, -1):
+        f[l] = max(f[l], f[l - w[i]] + v[i])
